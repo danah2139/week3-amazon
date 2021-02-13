@@ -1,0 +1,59 @@
+@import url(//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember);
+
+@font-face {
+	font-family: Amazon Ember;
+	src: url(sansation_light.woff);
+	font-weight: 700;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	line-height: 20px;
+	font-family: 'Amazon Ember', Arial, sans-serif;
+}
+
+:root {
+	--main-navbar-color: #131921;
+	--sub-navbar-color: #232f3e;
+	--light-gray-border-color: rgb(204, 204, 204);
+	--medium-gray-border-color: rgb(162, 166, 172);
+	--text-dark-color: #0f1111;
+	--blue-links-color: #007185;
+	--orange-links-hover-color: #c7511f;
+	--regular-text-color: rgb(86, 89, 89);
+	--price-color: rgb(177, 39, 4);
+	--gold-title: #c60;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+.horizontal-seperator {
+	border-top: 1px solid #ccc;
+	background-color: transparent;
+	display: block;
+	height: 1px;
+	border-width: 0;
+	border-top: 1px solid #e7e7e7;
+	line-height: 19px;
+	margin: 14px 0;
+}
+
+.bold {
+	font-weight: 700;
+}
+.inline-block {
+	display: inline-block;
+}
