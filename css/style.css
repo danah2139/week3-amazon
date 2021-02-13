@@ -26,6 +26,7 @@
 	--regular-text-color: rgb(86, 89, 89);
 	--price-color: rgb(177, 39, 4);
 	--gold-title: #c60;
+	--buy-now: linear-gradient(to bottom, #f6c88f, #ed9220);
 }
 
 body {
@@ -56,4 +57,17 @@ ul {
 }
 .inline-block {
 	display: inline-block;
+}
+
+.text--12 {
+	font-size: 12px;
+}
+
+select {
+	border-color: #d5d9d9;
+	border-radius: 8px;
+	color: #0f1111;
+	background: #f0f2f2;
+	font-size: 12px;
+	padding: 2px;
 }
